@@ -1,0 +1,2 @@
+SELECT COUNT(product_id)
+FROM pharmacy_sales;
