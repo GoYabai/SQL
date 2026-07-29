@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS tweets;
 CREATE TABLE tweets (
-    tweet_id INTEGER PRIMARY KEY, -- Em thêm PRIMARY KEY vì tweet_id thường là khóa chính
+    tweet_id INTEGER PRIMARY KEY,
     user_id INTEGER,
     msg TEXT,
     tweet_date TIMESTAMP
